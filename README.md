@@ -17,6 +17,8 @@ Source : (Java example) [https://www.youtube.com/watch?v=3j0SWDX4AtU]
 ## About
 This repository contains an implementation of the Merge Sort algorithm in C#. The code includes classes for the Merge Sort algorithm, a helper class for merging, and a controller for demonstrating the algorithm on various arrays.
 
+The Merge Sort is a popular sorting algorithm that follows the divide-and-conquer paradigm. It divides the input array into two halves, recursively sorts each half, and then merges the sorted halves to produce a sorted array. 
+
 ## Usage
 To use the Merge Sort algorithm in your C# project, follow the example provided in the [Example](#example) section.
 
