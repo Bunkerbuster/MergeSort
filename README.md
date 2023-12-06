@@ -22,18 +22,14 @@ To use the Merge Sort algorithm in your C# project, follow the example provided 
 
 
 ## Getting Started
-## Getting Started
-
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 ### Prerequisites
-
 To run this project, you need to have:
 
 - [.NET SDK](https://dotnet.microsoft.com/download) installed.
 
 ### Installation
-
 1. Clone this repository to your local machine using your terminal or command prompt:
 
 ```bash
@@ -54,7 +50,6 @@ Here's an example of how to use the Merge Sort algorithm in C#:
 
         return Ok(_SortedArray);
     }
-  
 
 ##Contributing
 none
