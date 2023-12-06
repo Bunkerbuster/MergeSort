@@ -43,22 +43,18 @@ git clone https://github.com/Bunkerbuster/MergeSort.git
 ### Example
 Here's an example of how to use the Insertion Sort algorithm in C#:
 
-  int[] _UnsortedArray = new[] { 64, 34, 25, 12, 22, 11, 90 };
+    private readonly int[] _UnsortedArray = new[] { 64, 34, 25, 12, 22, 11, 90 };
 
-  public class MergeSortAlgorithm : IMergeSortAlgorithm
-  {
-    private readonly IMergeHelper _IMergeHelper;
+    private readonly IMergeSortAlgorithm _IMergeSortAlgorithm;
 
-    public MergeSortAlgorithm(IMergeHelper _Imergehelper)
+    [HttpGet("PrintSortedArray")]
+    public async Task<ActionResult> PrintMergedArray()
     {
-        _IMergeHelper = _Imergehelper;
-    }
+        int[] _SortedArray = _IMergeSortAlgorithm.MergeSortArray(_UnsortedArray);
 
-    public int[] MergeSortArray(int[] UnsortedArray)
-    {
-        // Add implementation here
+        return Ok(_SortedArray);
     }
-  }
+  
 
 ##Contributing
 none
